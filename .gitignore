@@ -2,8 +2,9 @@
 .env
 data.env
 
-# Ignore data directory
+# Ignore ddirectory
 data/
+mc_bridge/
 
 # Logs
 logs/
