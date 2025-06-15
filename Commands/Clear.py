@@ -8,7 +8,7 @@ from Commands._global_ import if_dev
 )
 @if_dev()
 async def clear_command(interaction: discord.Interaction):
-    await interaction.response.send_message("🧹 Clearing commands...", ephemeral=True)
+    await interaction.response.send_message("🧹 Clearing commands... (dev only)", ephemeral=True)
 
     try:
         interaction.client.tree.clear_commands(guild=interaction.guild)
