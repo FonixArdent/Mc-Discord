@@ -1,6 +1,7 @@
 # Commands/LinkChat.py
 import json
 from Commands._global_ import discord
+import asyncio
 
 @discord.app_commands.command(name="linkchat", description="🔗 Enable message synchronization with Minecraft")
 async def link_chat_command(interaction: discord.Interaction):
@@ -22,6 +23,8 @@ async def link_chat_command(interaction: discord.Interaction):
                 json.dump(data, f, indent=4)
 
             await interaction.followup.send("🔗 This channel is now synchronized with Minecraft!", ephemeral=True)
+            await interaction.channel.edit(slowmode_delay=60)
+            await interaction.followup.send("🔄 The bot must be restarted for all changes to take effect. and then run `/linkchat`", ephemeral=False)
 
     except Exception as e:
         await interaction.followup.send(f"❌ Error: {e}", ephemeral=True)

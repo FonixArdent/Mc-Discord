@@ -2,7 +2,7 @@
 .env
 data.env
 
-# Ignore ddirectory
+# Ignore directory
 data/
 mc_bridge/
 
@@ -22,8 +22,8 @@ Thumbs.db
 *.sublime-project
 
 # Build output
-dist/
-build/
+dist/*
+build/*
 
 # Python cache
 __pycache__/
@@ -31,3 +31,5 @@ __pycache__/
 
 # Generated JSON files
 *.json
+*.json[cod]
+mc_bridge/latest_message.json

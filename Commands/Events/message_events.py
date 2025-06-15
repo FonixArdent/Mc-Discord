@@ -75,9 +75,28 @@ class MessageListener(commands.Cog):
         try:
 
             os.makedirs("mc_bridge", exist_ok=True)
+            file_path = "mc_bridge/latest_message.json"
+            messages = []
 
-            with open("mc_bridge/latest_message.json", "w", encoding="utf-8") as f:
-                json.dump(data, f, ensure_ascii=False, indent=2)
+            # Load existing messages if the file exists
+            if os.path.exists(file_path):
+                try:
+                    with open(file_path, "r", encoding="utf-8") as f:
+                        messages = json.load(f)
+                        if not isinstance(messages, list):
+                            messages = []
+                except Exception:
+                    messages = []
+
+            # Append the new message
+            messages.append(data)
+
+            # Keep only the last 20 messages
+            messages = messages[-20:]
+
+            # Write back to the file
+            with open(file_path, "w", encoding="utf-8") as f:
+                json.dump(messages, f, ensure_ascii=False, indent=2)
             print(f"💬 Message sent to datapack: {data}")
 
         except Exception as e:
