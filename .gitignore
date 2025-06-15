@@ -1,1 +1,32 @@
+# Environment files
+.env
 data.env
+
+# Ignore data directory
+data/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Build output
+dist/
+build/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Generated JSON files
+*.json

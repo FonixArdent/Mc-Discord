@@ -7,7 +7,7 @@ MC Ardent is a robust Discord bot that integrates directly with a Minecraft Bedr
 
 - Real-time message relay between Discord and Minecraft Bedrock
 - Easy setup and configuration
-- Secure and reliable communication bridge with our [website](function:alert("unkown"))
+- Secure and reliable communication bridge with our [website](/)
 ## Usage
 To get started, simply [invite the App](https://discord.com/oauth2/authorize?client_id=1381339129001803897) and link it to your Minecraft world. From there, messages sent in the designated Discord channel will appear in your Minecraft Bedrock world, and vice versa.
 
