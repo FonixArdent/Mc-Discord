@@ -1,7 +1,8 @@
 # ***Welcome to MC Ardent***
 
 --------------------------------------------------
-> ***__Progress :__*** 🔴 **Under Development**
+> ***__Progress :__***
+> 🔴 **Under Development**
 ---------------------------------------------------
 
 ## Project Overview
