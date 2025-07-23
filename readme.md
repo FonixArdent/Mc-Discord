@@ -1,6 +1,6 @@
 # ***Welcome to MC Ardent***
 
-## Progress : 
+- ***__Progress :__***
 > **![Under Development](https://img.shields.io/badge/Under-Development-blue)**
 
 ## Project Overview
