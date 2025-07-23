@@ -1,8 +1,6 @@
 # ***Welcome to MC Ardent***
 
-> ***__Progress :__***
-
- **![Under Development](https://img.shields.io/badge/Under-Development-blue)**
+> ***__Progress :__*** **![Under Development](https://img.shields.io/badge/Under-Development-blue)**
 
 ## Project Overview
 MC Ardent is a robust Discord bot that integrates directly with a Minecraft Bedrock Behavior Pack (datapack). It creates a seamless bridge for sharing messages between a designated Discord channel and your Minecraft Bedrock world. This integration streamlines communication for players and administrators, fostering better coordination and a stronger community within your Minecraft server.
