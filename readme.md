@@ -1,7 +1,8 @@
 # ***Welcome to MC Ardent***
 
 --------------------------------------------------
-> Progress : 🔴 Under Development
+> Progress : 🟠 Soon Ready
+
 
 ---------------------------------------------------
 
