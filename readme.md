@@ -1,8 +1,8 @@
 # ***Welcome to MC Ardent***
 
 --------------------------------------------------
-> Progress : 
-🔴 Under Development---------------------------------------------------
+> Progress : 🔴 Under Development
+---------------------------------------------------
 
 ## Project Overview
 
@@ -27,6 +27,3 @@
 - ## License
 
  This project is licensed under the MIT License.
-
-
-Progression : 🟠 Soon Ready
