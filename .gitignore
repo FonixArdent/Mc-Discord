@@ -14,16 +14,11 @@ npm-debug.log*
 # System files
 .DS_Store
 Thumbs.db
-
 # IDE files
 .vscode/
 .idea/
 *.sublime-workspace
 *.sublime-project
-
-# Build output
-dist/*
-build/*
 
 # Python cache
 __pycache__/
