@@ -6,6 +6,8 @@ from Commands._global_ import if_dev
     name="clear",
     description="🧹 Deletes all commands in the guild", # you can also remove this if you want it to be global
 )
+
+
 @if_dev()
 async def clear_command(interaction: discord.Interaction):
     await interaction.response.send_message("🧹 Clearing commands... (dev only)", ephemeral=True)
