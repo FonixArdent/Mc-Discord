@@ -18,4 +18,4 @@ COPY . .
 
 ENV PYTHONUNBUFFERED=1
 
-RUN py main.py
+RUN python main.py
