@@ -18,7 +18,7 @@ from Commands.Events.message_events import MessageListener
 
 
 # Load environment variables
-load_dotenv("data.env")
+load_dotenv("data.env", encoding="utf-8")
 TOKEN = os.getenv("DISCORD_TOKEN")
 
 intents = discord.Intents.all()
