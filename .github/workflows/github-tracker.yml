@@ -16,3 +16,4 @@ jobs:
           -H "Authorization: Bearer ${{ secrets.SUPABASE_KEY }}" \
           -H "Content-Type: application/json" \
           -d '{"event": "${{ github.event_name }}", "author": "${{ github.actor }}", "repository": "${{ github.repository }}", "is_notified": false}'
+          
