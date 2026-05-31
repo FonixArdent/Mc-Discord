@@ -15,4 +15,4 @@ jobs:
           -H "apikey: ${{ secrets.SUPABASE_KEY }}" \
           -H "Authorization: Bearer ${{ secrets.SUPABASE_KEY }}" \
           -H "Content-Type: application/json" \
-          -d '{"event": "${{ github.event_name }}", "author": "${{ github.actor }}", "repostory": "${{ github.repositoryUrl }}"}'
+          -d '{"event": "${{ github.event_name }}", "author": "${{ github.actor }}", "repostory": "${{ github.repository }}", "is_notified": false}'
